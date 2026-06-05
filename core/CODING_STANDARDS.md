@@ -16,6 +16,7 @@ Code is written once but read many times. Optimization for readability and maint
 - **Prefer simplicity** over unnecessary abstraction.
 - **Prefer explicit behavior** over hidden behavior.
 - **Prefer consistency** over personal preference.
+- **Prefer consistency** with the existing codebase over theoretical perfection.
 - **Prefer maintainability** over short-term speed.
 - **Optimize for future maintainers.**
 - **Leave the codebase better** than you found it.
@@ -41,6 +42,7 @@ Before introducing any complexity, ask yourself: *"Is this actually necessary?"*
 
 - **Use the simplest solution** that satisfies all functional and non-functional requirements.
 - **Avoid speculative abstractions:** Do not write interfaces, generic types, or extension hooks for features you might need "someday."
+- **Prefer extending existing abstractions** before introducing new ones.
 - **Avoid premature optimization:** Focus on correct, readable code first. Benchmark and profile before spending time optimizing loops or allocations.
 - **Avoid solving hypothetical problems:** Build for the constraints of today. Let the architecture evolve naturally as requirements grow.
 - **Reduce moving parts:** Keep the number of states, variables, and active threads to a minimum.

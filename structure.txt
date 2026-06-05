@@ -5,15 +5,15 @@ govind-os/
 │   ├── ANTIGRAVITY.md
 │   ├── CLAUDE.md
 │   ├── CODEX.md
-│   ├── CURSOR.md
-│   └── OPENHANDS.md
+│   └── CURSOR.md
 ├── career/
 │   ├── GSOC.md
 │   ├── INTERNSHIPS.md
 │   ├── LFX.md
 │   ├── NETWORKING.md
 │   ├── PROJECT_SELECTION.md
-│   └── RESUME_RULES.md
+│   ├── RESUME_RULES.md
+│   └── SUMMER_OF_BITCOIN.md
 ├── core/
 │   ├── AI_COLLABORATION.md
 │   ├── CODING_STANDARDS.md
@@ -26,15 +26,16 @@ govind-os/
 │   ├── CLOUD_NATIVE.md
 │   ├── DEVOPS.md
 │   ├── DISTRIBUTED_SYSTEMS.md
-│   ├── GO.md
 │   ├── KUBERNETES.md
+│   ├── LANGUAGE_AGNOSTIC_ENGINEERING.md
 │   ├── POSTGRESQL.md
 │   └── SYSTEM_DESIGN.md
-├── journal/
-│   ├── 2026.md
-│   ├── failures.md
-│   ├── lessons.md
-│   └── wins.md
+├── experience/
+│   ├── DECISION_LOG.md
+│   ├── HARBOR.md
+│   ├── LESSONS.md
+│   ├── LFX_2026.md
+│   └── REJECTIONS.md
 ├── learning/
 │   ├── BOOK_NOTES.md
 │   ├── KNOWLEDGE_GRAPH.md
@@ -47,13 +48,10 @@ govind-os/
 │   ├── MAINTAINER_INTERACTION.md
 │   ├── PR_CHECKLIST.md
 │   └── REVIEW_GUIDELINES.md
-├── startup/
-│   ├── FOUNDER_LESSONS.md
-│   ├── IDEA_VALIDATION.md
-│   └── MVP_FRAMEWORK.md
 └── templates/
     ├── COLD_OUTREACH.md
     ├── COVER_LETTER.md
     ├── ISSUE_REPORT.md
     ├── PROJECT_PROPOSAL.md
-    └── PR_DESCRIPTION.md
+    ├── PR_DESCRIPTION.md
+    └── TECHNICAL_WRITEUP.md

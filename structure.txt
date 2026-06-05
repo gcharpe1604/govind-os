@@ -20,6 +20,7 @@ govind-os/
 │   ├── DEBUGGING.md
 │   ├── DECISION_MAKING.md
 │   ├── ENGINEERING_PRINCIPLES.md
+│   ├── OPPORTUNITY_DISCOVERY.md
 │   └── WORKFLOWS.md
 ├── engineering/
 │   ├── BACKEND.md

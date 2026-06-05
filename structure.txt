@@ -1,0 +1,59 @@
+govind-os/
+├── README.md
+├── agents/
+│   ├── AGENTS.md
+│   ├── ANTIGRAVITY.md
+│   ├── CLAUDE.md
+│   ├── CODEX.md
+│   ├── CURSOR.md
+│   └── OPENHANDS.md
+├── career/
+│   ├── GSOC.md
+│   ├── INTERNSHIPS.md
+│   ├── LFX.md
+│   ├── NETWORKING.md
+│   ├── PROJECT_SELECTION.md
+│   └── RESUME_RULES.md
+├── core/
+│   ├── AI_COLLABORATION.md
+│   ├── CODING_STANDARDS.md
+│   ├── DEBUGGING.md
+│   ├── DECISION_MAKING.md
+│   ├── ENGINEERING_PRINCIPLES.md
+│   └── WORKFLOWS.md
+├── engineering/
+│   ├── BACKEND.md
+│   ├── CLOUD_NATIVE.md
+│   ├── DEVOPS.md
+│   ├── DISTRIBUTED_SYSTEMS.md
+│   ├── GO.md
+│   ├── KUBERNETES.md
+│   ├── POSTGRESQL.md
+│   └── SYSTEM_DESIGN.md
+├── journal/
+│   ├── 2026.md
+│   ├── failures.md
+│   ├── lessons.md
+│   └── wins.md
+├── learning/
+│   ├── BOOK_NOTES.md
+│   ├── KNOWLEDGE_GRAPH.md
+│   ├── LEARNING_BACKLOG.md
+│   └── LEARNING_SYSTEM.md
+├── open-source/
+│   ├── CNCF_PLAYBOOK.md
+│   ├── CONTRIBUTION_WORKFLOW.md
+│   ├── LFX_LESSONS_2026.md
+│   ├── MAINTAINER_INTERACTION.md
+│   ├── PR_CHECKLIST.md
+│   └── REVIEW_GUIDELINES.md
+├── startup/
+│   ├── FOUNDER_LESSONS.md
+│   ├── IDEA_VALIDATION.md
+│   └── MVP_FRAMEWORK.md
+└── templates/
+    ├── COLD_OUTREACH.md
+    ├── COVER_LETTER.md
+    ├── ISSUE_REPORT.md
+    ├── PROJECT_PROPOSAL.md
+    └── PR_DESCRIPTION.md

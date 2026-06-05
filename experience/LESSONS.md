@@ -73,3 +73,13 @@ A centralized repository of personal wisdom, rules of thumb, and principles dist
 
 ## Systems Thinking
 *Feedback loops, architectural trade-offs, systemic bottlenecks in code and workflows.*
+
+### LESSON-002: Dynamic Context Bootstrapping vs. Hardcoded Stack Conventions
+- **Lesson:** Keep global AI agent instructions abstract and load domain/stack conventions dynamically via bootstrapping.
+  - **Source:** Govind-OS refactoring session
+  - **Confidence:** Repeatedly Verified
+  - **Context:** Deciding where Go and CNCF conventions belong when structuring configuration files for agents handling career, open source, learning, and projects.
+  - **What Happened:** Including Go/CNCF-specific engineering standards in the base AI operating manual (`AGENTS.md`) polluted the guide for non-engineering tasks (e.g. drafting cold emails or writing career proposals).
+  - **What I Learned:** AI instructions require a clean separation of concerns. Base layers should define behavior/meta-protocols, while a bootstrap loop dynamically injects specific domain context (like `core/CODING_STANDARDS.md`).
+  - **Future Application:** Protect the generic boundary of the base protocol. Resolve language/tool details via dynamic layer lookup rather than hardcoding them in global files.
+

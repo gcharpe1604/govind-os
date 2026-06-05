@@ -21,7 +21,8 @@ govind-os/
 │   ├── DECISION_MAKING.md
 │   ├── ENGINEERING_PRINCIPLES.md
 │   ├── OPPORTUNITY_DISCOVERY.md
-│   └── WORKFLOWS.md
+│   ├── WORKFLOWS.md
+│   └── WORKFLOW_PLAYBOOK.md
 ├── engineering/
 │   ├── BACKEND.md
 │   ├── CLOUD_NATIVE.md

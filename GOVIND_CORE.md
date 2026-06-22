@@ -55,6 +55,7 @@ before loading additional context. Then load only what the task requires.
 | Infrastructure / DevOps / CI/CD | `engineering/DEVOPS.md` |
 | **Open Source** | |
 | Repository & Opportunity Analysis | `core/OPPORTUNITY_DISCOVERY.md` |
+| Bug/Feature/Doc/Test/Debt/Arch Discovery | `core/DISCOVERY_FRAMEWORKS.md` (load only when needed) |
 | Open Source Contributions (general) | `open-source/CONTRIBUTION_WORKFLOW.md` |
 | CNCF ecosystem work | `open-source/CNCF_PLAYBOOK.md` |
 | Code review (giving or receiving) | `open-source/REVIEW_GUIDELINES.md` |

@@ -31,14 +31,11 @@ Many applicants view LFX as an academic coding contest or a typical application-
 
 ## Core Philosophy
 
-When navigating the LFX process, adhere to these guiding rules:
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
-*   **Optimize for contribution quality:** One thorough, well-tested bug fix that resolves an architectural issue is worth more than ten minor typo corrections.
-*   **Optimize for maintainer trust:** Focus every interaction on proving you respect the maintainers' time and project standards.
-*   **Optimize for long-term participation:** Enter a project with the intention of remaining an active contributor long after the official mentorship period ends.
-*   **Prefer understanding over speed:** Spend time reading code, tracking issue histories, and understanding constraints before submitting solutions.
-*   **Prefer consistency over intensity:** Maintain a steady contribution cadence (e.g., 1-2 clean PRs per week) rather than submitting five PRs in a single day and disappearing.
-*   **Prefer real value over metrics:** Do not game GitHub activity graphs. Focus on solving issues that the community actually prioritizes.
+*   **Optimize for contribution quality:** One thorough, well-tested bug fix is worth more than ten minor typo corrections.
+*   **Optimize for long-term participation:** Enter a project intending to remain active long after the official mentorship period ends.
+*   **Prefer consistency over intensity:** Maintain a steady contribution cadence (e.g., 1-2 clean PRs per week) rather than burst activity.
 
 ---
 

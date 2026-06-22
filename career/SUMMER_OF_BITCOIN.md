@@ -32,12 +32,10 @@ Organizations select contributors they believe can:
 
 ## Core Philosophy
 
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
 *   **Optimize for understanding:** Deeply comprehend the protocols (Bitcoin, Lightning, etc.) rather than rushing to write code.
-*   **Optimize for contribution quality:** Focus on robust, well-tested commits that solve critical bottlenecks over trivial styling or documentation fixes.
-*   **Optimize for maintainer trust:** Value the reviewer's time, communicate transparently, and adhere to project standards.
-*   **Optimize for long-term participation:** Plan to stay active in the ecosystem beyond the official program timeline.
 *   **Prefer engineering depth over project prestige:** Choose projects that stretch your technical skills rather than selecting based on popularity.
-*   **Prefer consistency over activity spikes:** Regular, sustained contributions build more trust than high-volume burst activity.
 *   **Prefer meaningful contributions over contribution counts:** Quality commits matter far more than inflating pull request metrics.
 
 ---

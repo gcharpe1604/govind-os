@@ -92,6 +92,11 @@ When a task does not fit the routing table:
 3. Load the most relevant document.
 4. Expand context incrementally only if needed.
 
+**Mandatory checkpoints:**
+- **Search before creating.** Before proposing new content, patterns, or frameworks, verify nothing similar already exists in Govind-OS.
+- **Evidence before action.** Before proposing a bug fix or architectural change, reproduce the issue locally or cite concrete evidence.
+- **Validate against templates.** Before generating artifacts (proposals, PRs, outreach), load the matching template from `templates/`.
+
 Prefer existing guidance over invented guidance.
 Prefer specific documents over broad loading.
 

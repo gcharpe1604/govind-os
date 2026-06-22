@@ -38,12 +38,11 @@ Managers are evaluating your signal across:
 
 ## Core Philosophy
 
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
 *   **Prefer capability over credentials:** Focus on demonstrating deep systems understanding rather than listing brand name certificates.
-*   **Prefer evidence over claims:** Let your merged code, public repositories, and technical writing prove your skills, not resume buzzwords.
-*   **Prefer depth over breadth:** Master one systems programming language and its ecosystems (e.g., Go/Rust/C++) rather than learning five frameworks superficially.
 *   **Prefer real systems over toy projects:** Build software that handles real network traffic, uses persistent databases, and handles concurrency.
-*   **Prefer long-term reputation over short-term interview tricks:** Focus on building a permanent track record of contribution rather than cramming trivia for a 45-minute call.
-*   **Prefer compounding career assets over isolated achievements:** Build public assets (like Govind-OS, core libraries, and community visibility) that continue to work for you over years.
+*   **Prefer compounding career assets over isolated achievements:** Build public assets (like Govind-OS, core libraries, community visibility) that continue to work for you over years.
 
 ---
 

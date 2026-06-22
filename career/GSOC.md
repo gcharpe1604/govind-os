@@ -27,12 +27,11 @@ GSoC is not an academic coding contest.
 
 ## Core Philosophy
 
-*   **Optimize for contribution quality:** One thorough, well-tested bug fix that resolves an architectural issue is worth more than ten minor typo corrections.
-*   **Optimize for maintainer trust:** Focus every interaction on proving you respect the maintainers' time and project standards.
-*   **Optimize for long-term participation:** Enter a project with the intention of remaining an active contributor long after the official GSoC period ends.
-*   **Prefer understanding over speed:** Spend time reading code, tracking issue histories, and understanding constraints before submitting solutions.
-*   **Prefer consistency over intensity:** Maintain a steady contribution cadence rather than submitting multiple PRs in a single day and disappearing.
-*   **Prefer real value over metrics:** Focus on solving issues that the community actually prioritizes.
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
+*   **Optimize for contribution quality:** One thorough, well-tested bug fix is worth more than ten minor typo corrections.
+*   **Optimize for long-term participation:** Enter a project intending to remain active long after the official GSoC period ends.
+*   **Prefer consistency over intensity:** Maintain a steady contribution cadence rather than bursts followed by silence.
 
 ---
 

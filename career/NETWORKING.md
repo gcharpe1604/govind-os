@@ -30,12 +30,11 @@ Networking is the process of:
 
 ## Core Philosophy
 
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
 *   **Prefer relationships over transactions:** Treat developers as peers and mentors rather than stepping stones.
-*   **Prefer contribution over self-promotion:** Let your merged code and helpful reviews speak louder than self-aggrandizing updates.
+*   **Prefer helping before asking:** Always look for ways to add value before requesting guidance or referrals.
 *   **Prefer trust over visibility:** A single high-trust relationship with a core maintainer creates more leverage than 10,000 generic followers.
-*   **Prefer long-term reputation over short-term gain:** Never sacrifice your professional credibility for temporary advantages.
-*   **Prefer helping before asking:** Always look for ways to add value to a maintainer's project before requesting guidance or referrals.
-*   **Prefer consistency over networking bursts:** Small, regular interactions in Slack/IRC build sustainable credibility over sudden, erratic outreach.
 
 ---
 

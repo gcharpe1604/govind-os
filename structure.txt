@@ -1,4 +1,5 @@
 govind-os/
+├── GOVIND_CORE.md
 ├── README.md
 ├── agents/
 │   ├── AGENTS.md
@@ -7,6 +8,7 @@ govind-os/
 │   ├── CODEX.md
 │   └── CURSOR.md
 ├── career/
+│   ├── CAREER_OS.md
 │   ├── GSOC.md
 │   ├── INTERNSHIPS.md
 │   ├── LFX.md
@@ -50,6 +52,11 @@ govind-os/
 │   ├── MAINTAINER_INTERACTION.md
 │   ├── PR_CHECKLIST.md
 │   └── REVIEW_GUIDELINES.md
+├── startup/
+│   ├── STARTUP_OS.md
+│   ├── IDEA_VALIDATION.md
+│   ├── MVP.md
+│   └── PRODUCT_STRATEGY.md
 └── templates/
     ├── COLD_OUTREACH.md
     ├── COVER_LETTER.md

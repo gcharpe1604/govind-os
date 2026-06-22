@@ -46,12 +46,16 @@ govind-os/
 ├── GOVIND_CORE.md  # Primary entry point and router
 ├── agents/         # Operating instructions for AI assistants
 ├── career/         # Playbooks for GSoC, LFX, networking, and applications
+│   └── CAREER_OS.md  # Career domain entry point
 ├── core/           # Foundational guidelines on coding, workflows, and debugging
+│   └── DISCOVERY_FRAMEWORKS.md  # Conditional-load discovery checklists
 ├── engineering/    # Deep-dives into systems engineering, backend, databases, and DevOps
+│   └── ENGINEERING_OS.md  # Engineering domain entry point
 ├── experience/     # Chronological mentorship journals, project journals, and logs
 ├── learning/       # Book notes, target backlogs, and knowledge mappings
 ├── open-source/    # CNCF contribution workflows, review guidelines, and lessons
 ├── startup/        # Idea validation, MVP playbooks, and product strategy
+│   └── STARTUP_OS.md  # Startup domain entry point
 └── templates/      # Reusable proposal, PR, outreach, and issue templates
 ```
 

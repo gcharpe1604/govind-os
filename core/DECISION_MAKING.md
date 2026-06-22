@@ -163,42 +163,17 @@ When faced with a significant Type 1 decision, run it through this ten-step proc
 
 ## Council Framework
 
-The Council Framework is a multi-perspective mental evaluation tool designed to challenge assumptions, reveal blind spots, and de-risk major decisions. When evaluating a choice, analyze it through these five distinct personas:
+A multi-perspective evaluation tool for Type 1 decisions. For full usage details, see [agents/CLAUDE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/CLAUDE.md).
 
-```mermaid
-grid
-    Contrarian --> FirstPrinciples
-    FirstPrinciples --> Expansionist
-    Expansionist --> Outsider
-    Outsider --> Executor
-```
+| Persona | Focus | Core Question |
+|---|---|---|
+| Contrarian | Failure scenarios, hidden costs | "Why will this fail?" |
+| First Principles | Base facts, logical consistency | "What assumptions are unverified?" |
+| Expansionist | Strategic growth, compounding | "How does this compound over 3-5 years?" |
+| Outsider | Objective detachment, simplicity | "What would an external consultant say?" |
+| Executor | Timelines, resource constraints | "What is the simplest path to get this done?" |
 
-### The Personas
-
-*   **The Contrarian (Risk Auditor):**
-    *   *Focus:* Failure scenarios, worst-case risks, and hidden costs.
-    *   *Question:* "Why will this fail? What are we ignoring out of optimism? What is the downside?"
-*   **The First Principles Thinker (Assumption Auditor):**
-    *   *Focus:* Base facts, logical consistency, and fundamental constraints.
-    *   *Question:* "What core assumptions are we making? Are they verified truths, or are we copying others?"
-*   **The Expansionist (Upside Auditor):**
-    *   *Focus:* Strategic growth, maximum leverage, and long-term compounding benefits.
-    *   *Question:* "What is the best-case scenario? How does this compound our assets over 3-5 years?"
-*   **The Outsider (Perspective Auditor):**
-    *   *Focus:* Objective detachment, simplicity, and fresh viewpoints.
-    *   *Question:* "If we were external consultants hired to fix this, what obvious advice would we give?"
-*   **The Executor (Practicality Auditor):**
-    *   *Focus:* Timelines, resource constraints, friction, and immediate next steps.
-    *   *Question:* "Do we have the capacity to build this? What is the simplest path to get this done?"
-
-### Output Format
-
-For key decisions, document the council's evaluation:
-1.  **Agreements:** Areas where all personas align.
-2.  **Disagreements:** Critical conflicts between perspectives (e.g., Contrarian risk vs. Expansionist upside).
-3.  **Blind Spots:** Hidden assumptions or risks exposed by the exercise.
-4.  **Recommendation:** The final path forward.
-5.  **Next Action:** The immediate, actionable task to kick off execution.
+**Output:** Document agreements, disagreements, blind spots, recommendation, and next action.
 
 ---
 
@@ -272,12 +247,10 @@ Use AI to expand your perspective, not to replace your judgment:
 
 ## Common Decision Anti-Patterns
 
-Avoid these common decision pitfalls:
-
-*   **Analysis Paralysis:** Waiting for perfect information before acting on a Type 2 decision, delaying progress.
-*   **Trend Chasing (FOMO):** Committing time to a technology stack or project simply because it is trending on social media, without verifying its engineering utility.
-*   **Prestige-Driven Choices:** Accepting roles or projects for the vanity of the title or company name, rather than the actual depth of technical work and learning rate.
-*   **Short-Term Optimization:** Maximizing immediate financial return at the expense of long-term skill compounding and career leverage.
+*   **Analysis Paralysis:** Waiting for perfect information before acting on a Type 2 decision.
+*   **Trend Chasing (FOMO):** Committing to a technology solely because it is trending, without verifying engineering utility.
+*   **Prestige-Driven Choices:** Accepting roles for brand prestige rather than depth of technical work.
+*   **Short-Term Optimization:** Maximizing immediate financial return at the expense of long-term skill compounding.
 
 ---
 

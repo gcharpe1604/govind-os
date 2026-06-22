@@ -288,6 +288,14 @@ Final Score = (Impact × Acceptance Probability × Scope Fit) × Discovery Confi
 
 *Aim for opportunities with a high Final Score. A Medium-Impact, Atomic PR with 0.8 Acceptance Probability and High Confidence (1.0) is significantly better than a High-Impact, Systemic proposal with 0.2 Acceptance Probability or a Low Confidence (0.1) speculation.*
 
+### Worked Examples
+
+| Opportunity | Impact | Acceptance | Scope | Confidence | Score | Tier |
+|---|---|---|---|---|---|---|
+| Fix confirmed regression assigned to you | 4 | 1.0 | 1.0 | 1.0 | **4.0** | Tier 1 |
+| Add unit tests for untested critical path | 3 | 0.8 | 1.0 | 1.0 | **2.4** | Tier 2 |
+| Propose architectural refactor you haven't reproduced locally | 4 | 0.5 | 0.4 | 0.1 | **0.08** | Tier 4 |
+
 _Note: The score is a prioritization aid, not a substitute for engineering judgment. Maintainer feedback, roadmap alignment, and repository context may override numerical rankings._
 
 ---

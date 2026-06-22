@@ -1,4 +1,4 @@
-# DevOps & Infrastructure Playbook
+﻿# DevOps & Infrastructure Playbook
 
 > [!NOTE]
 > **Purpose of this Document:**
@@ -109,11 +109,11 @@ Document common operational procedures before failures occur.
 ---
 
 ## References
-- [engineering/KUBERNETES.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/engineering/KUBERNETES.md)
-- [engineering/CLOUD_NATIVE.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/engineering/CLOUD_NATIVE.md)
-- [engineering/DISTRIBUTED_SYSTEMS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/engineering/DISTRIBUTED_SYSTEMS.md)
-- [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md)
-- [open-source/LFX_LESSONS_2026.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/open-source/LFX_LESSONS_2026.md)
+- [engineering/KUBERNETES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering/KUBERNETES.md)
+- [engineering/CLOUD_NATIVE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering/CLOUD_NATIVE.md)
+- [engineering/DISTRIBUTED_SYSTEMS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering/DISTRIBUTED_SYSTEMS.md)
+- [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md)
+- [open-source/LFX_LESSONS_2026.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/open-source/LFX_LESSONS_2026.md)
 
 ---
 

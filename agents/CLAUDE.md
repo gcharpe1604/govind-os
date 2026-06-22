@@ -1,8 +1,8 @@
-# Claude Operating Protocol (CLAUDE)
+﻿# Claude Operating Protocol (CLAUDE)
 
 > [!NOTE]
 > **Purpose of this Document:**
-> This document defines how Claude should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md). This overlay captures Claude-specific strengths, context strategies, review sequences, and decision-making analyses. The goal is to maximize engineering judgment, decision quality, and long-term leverage.
+> This document defines how Claude should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md). This overlay captures Claude-specific strengths, context strategies, review sequences, and decision-making analyses. The goal is to maximize engineering judgment, decision quality, and long-term leverage.
 
 ---
 

@@ -1,8 +1,8 @@
-# Codex Operating Protocol (CODEX)
+﻿# Codex Operating Protocol (CODEX)
 
 > [!NOTE]
 > **Purpose of this Document:**
-> This document defines how Codex should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on headless code generation, patch creation, CLI-driven validation, and test harness integration. The goal is correct, maintainable, and repository-aligned code modifications.
+> This document defines how Codex should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on headless code generation, patch creation, CLI-driven validation, and test harness integration. The goal is correct, maintainable, and repository-aligned code modifications.
 
 ---
 

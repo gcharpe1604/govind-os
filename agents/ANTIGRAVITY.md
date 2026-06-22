@@ -1,8 +1,8 @@
-# Antigravity Operating Protocol (ANTIGRAVITY)
+﻿# Antigravity Operating Protocol (ANTIGRAVITY)
 
 > [!NOTE]
 > **Purpose of this Document:**
-> This document defines how Antigravity should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on long-horizon task execution, task decomposition, progress checkpointing, research methods, and multi-perspective problem evaluation. The goal is systematic, long-term engineering execution.
+> This document defines how Antigravity should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on long-horizon task execution, task decomposition, progress checkpointing, research methods, and multi-perspective problem evaluation. The goal is systematic, long-term engineering execution.
 
 ---
 

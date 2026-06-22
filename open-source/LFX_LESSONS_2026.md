@@ -1,4 +1,4 @@
-# LFX Lessons 2026
+﻿# LFX Lessons 2026
 
 ## Purpose
 This document compiles distilled technical, operational, and communication principles gathered during the LFX Mentorship program in 2026. Unlike chronological journals, this file serves as a durable playbook of reusable lessons to guide future open-source contributions, applications, and engineering projects.
@@ -88,7 +88,7 @@ Understand the forces driving the maintainers reviewing your code:
 - **Context:** Resolving replication handler bugs where reviewers asked why related refactoring wasn't included.
 - **What Happened:** Reviewers requested additional changes, expanding the PR scope beyond the original issue boundaries.
 - **Principle:** Explicitly define "Explicitly Not Included" boundaries in your PR description.
-- **Future Action:** Always use the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PR_DESCRIPTION.md) structure to outline boundaries.
+- **Future Action:** Always use the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md) structure to outline boundaries.
 
 ---
 

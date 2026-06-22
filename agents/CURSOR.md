@@ -1,8 +1,8 @@
-# Cursor Operating Protocol (CURSOR)
+﻿# Cursor Operating Protocol (CURSOR)
 
 > [!NOTE]
 > **Purpose of this Document:**
-> This document defines how Cursor should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on IDE-native exploration, navigation patterns, and inline editing workflows. The goal is safe, correct, and verifiable repository evolution.
+> This document defines how Cursor should operate within Govind-OS. Global agent standards, workflows, and core principles are defined in [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md). This overlay focuses specifically on IDE-native exploration, navigation patterns, and inline editing workflows. The goal is safe, correct, and verifiable repository evolution.
 
 ---
 

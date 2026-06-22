@@ -11,12 +11,11 @@ The purpose of this guide is to enforce a consistent, high-signal, and disciplin
 
 ## Before Starting Any Task
 Every agent, immediately upon starting any session or task, must execute this context bootstrapping protocol:
-1. **Read README.md:** Understand the overall repository structure and layer organization.
-2. **Identify the Relevant Domain:** Determine which layer (`career/`, `open-source/`, `engineering/`, `learning/`, `experience/`, or `core/`) is relevant to the current task.
-3. **Read Domain Files:** Load the active guide files for the target domain to understand its specific standards and context.
-4. **Check Decision Log:** Review [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/DECISION_LOG.md) for prior decisions made in this area.
-5. **Check Lessons Learned:** Review [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md) for any applicable engineering or communication lessons.
-6. **State Loaded Context:** Explicitly summarize what context was loaded and what assumptions are being made before proceeding.
+1. **Read [GOVIND_CORE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/GOVIND_CORE.md):** This is the primary entry point. It defines operating mode and task routing.
+2. **Follow Task Routing:** Use the routing table in GOVIND_CORE to identify which domain document to load next.
+3. **Load Domain Document:** Load only the document(s) relevant to the current task. Do not load unrelated domains.
+4. **Check Lessons & Decisions (When Relevant):** For complex or risky tasks, review [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) and [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md).
+5. **State Loaded Context:** Explicitly summarize what context was loaded and what assumptions are being made before proceeding.
 
 ---
 
@@ -31,10 +30,14 @@ Every agent, immediately upon starting any session or task, must execute this co
 
 ## Repository Philosophy
 Govind-OS is designed to compile, structure, and compound knowledge.
-- **Core Layer:** Rules for executing and writing code.
-- **Engineering Layer:** Deep technical paradigms.
-- **Templates Layer:** Reusable blueprints for outbound communication and planning.
-- **Experience Layer:** Real-time chronicles, decision audits, and lesson lists.
+- **Core Layer (`core/`):** Debugging, decision-making, coding standards, workflows.
+- **Engineering Layer (`engineering/`):** Deep technical paradigms — backend, DevOps, distributed systems.
+- **Career Layer (`career/`):** GSoC, LFX, internships, resume, networking.
+- **Startup Layer (`startup/`):** Idea validation, MVP, product strategy.
+- **Open Source Layer (`open-source/`):** CNCF contribution, PR workflow, review standards.
+- **Experience Layer (`experience/`):** Decision logs, lessons, Harbor journal, LFX journal.
+- **Learning Layer (`learning/`):** Learning system, book notes, knowledge graph.
+- **Templates Layer (`templates/`):** Reusable blueprints for PRs, proposals, outreach.
 
 *Agents must protect these layer boundaries. Do not mix chronological journals with clean templates, and do not write ad-hoc scripts outside of scratch paths.*
 
@@ -129,7 +132,7 @@ Agents must explicitly state their level of confidence when recommending specifi
 
 ## When To Say "No"
 Agents must explicitly halt and query the user when:
-- Proposed changes violate established patterns in [core/CODING_STANDARDS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/core/CODING_STANDARDS.md) or [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md).
+- Proposed changes violate established patterns in [core/CODING_STANDARDS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/CODING_STANDARDS.md) or [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md).
 - Changes require importing heavy third-party libraries for simple logic that can be written in plain Go or standard libraries.
 - The user requests modifications that bypass testing requirements or merge raw placeholders into key directories.
 
@@ -164,7 +167,7 @@ When assisting with open-source codebases (like CNCF projects):
 ---
 
 ## Learning Expectations
-- Transform experience into lessons with unique identifiers (e.g., `LESSON-XXX`) under [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md).
+- Transform experience into lessons with unique identifiers (e.g., `LESSON-XXX`) under [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md).
 - Document the Source (e.g., Harbor, Book, Project) and the Confidence level (Hypothesis, Likely True, Repeatedly Verified).
 - Capture lessons immediately rather than relying on retrospectives.
 
@@ -173,7 +176,7 @@ When assisting with open-source codebases (like CNCF projects):
 ## Communication Expectations
 - **Concise & Direct:** Focus on technical content, avoiding verbose, conversational filler.
 - **Clickable Links:** Always link files and code symbols (classes, functions, types) using Github-style Markdown links with the `file://` scheme (using absolute paths for local file linking).
-- **Clear PR Descriptions:** Use the formats described in [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PR_DESCRIPTION.md).
+- **Clear PR Descriptions:** Use the formats described in [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md).
 
 ---
 
@@ -191,8 +194,8 @@ Agents must actively avoid:
 An agent's performance in Govind-OS is measured by:
 - **Lint & Build Pass Rate:** 100% compilation and pass rate on all pipeline tools.
 - **Zero Placeholder Merges:** Zero occurrences of temporary files, test bypasses, or empty structs in master.
-- **Correct Layer Placement:** All new documents placed exactly in their logical layer and linked from the [README.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/README.md).
+- **Correct Layer Placement:** All new documents placed exactly in their logical layer and linked from the [README.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/README.md).
 - **Outcome Quality Metrics:**
-  - **Decision Audits:** A Decision Log entry created in [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/DECISION_LOG.md) for every major architectural change.
-  - **Knowledge Compounding:** At least one durable lesson captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md) per program cycle or learning sprint.
+  - **Decision Audits:** A Decision Log entry created in [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) for every major architectural change.
+  - **Knowledge Compounding:** At least one durable lesson captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) per program cycle or learning sprint.
   - **Review Efficiency:** Pull requests structured for first- or second-pass approval on reviews.

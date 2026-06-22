@@ -16,14 +16,14 @@ Memory is unreliable, but structured knowledge compounds over time. This reposit
 
 ## Problems This Repository Solves
 - **Hindsight Bias:** By tracking decisions and rejections in real time with confidence scores and expected success probabilities, it creates an objective record to analyze judgment over time.
-- **Review Latency & PR Rejections:** Direct integration of the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PR_DESCRIPTION.md) and [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PROJECT_PROPOSAL.md) templates prevents scope creep and speeds up maintainer reviews.
-- **Knowledge Decay:** Distilling fleeting bugs and review feedback into permanent [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md) items preserves wisdom that would otherwise fade.
-- **AI Agent Misalignment:** The [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md) operating manual guarantees that coding assistants remain aligned with codebase conventions and failure rules.
+- **Review Latency & PR Rejections:** Direct integration of the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md) and [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PROJECT_PROPOSAL.md) templates prevents scope creep and speeds up maintainer reviews.
+- **Knowledge Decay:** Distilling fleeting bugs and review feedback into permanent [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) items preserves wisdom that would otherwise fade.
+- **AI Agent Misalignment:** The [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md) operating manual guarantees that coding assistants remain aligned with codebase conventions and failure rules.
 
 ---
 
 ## Design Principles
-- **Minimal Abstraction:** Prioritize readability and simplicity. Abstractions are created only when a pattern is repeated at least three times (see [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md)).
+- **Minimal Abstraction:** Prioritize readability and simplicity. Abstractions are created only when a pattern is repeated at least three times (see [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md)).
 - **Evidence Over Enthusiasm:** Prioritize concrete deliverables, PRs, and technical writeups over claims of passion.
 - **Traceability:** Maintain a continuous log of decisions (with reversibility analysis), rejections (for system improvements), and lessons.
 - **Decoupled Architecture:** Keep templates distinct from active journals, and keep command configurations separated from core backend execution logic.
@@ -43,35 +43,40 @@ To maintain its sharp focus and high quality, Govind-OS strictly enforces what i
 
 ```
 govind-os/
-├── agents/        # Operating instructions for AI assistants
-├── career/        # Playbooks for GSoC, LFX, networking, and applications
-├── core/          # Foundational guidelines on coding, workflows, and debugging
-├── engineering/   # Deep-dives into systems engineering, backend, databases, and DevOps
-├── experience/    # Chronological mentorship journals, project journals, and logs
-├── learning/      # Book notes, target backlogs, and knowledge mappings
-├── open-source/   # CNCF contribution workflows, review guidelines, and lessons
-└── templates/     # Reusable proposal, PR, outreach, and issue templates
+├── GOVIND_CORE.md  # Primary entry point and router
+├── agents/         # Operating instructions for AI assistants
+├── career/         # Playbooks for GSoC, LFX, networking, and applications
+├── core/           # Foundational guidelines on coding, workflows, and debugging
+├── engineering/    # Deep-dives into systems engineering, backend, databases, and DevOps
+├── experience/     # Chronological mentorship journals, project journals, and logs
+├── learning/       # Book notes, target backlogs, and knowledge mappings
+├── open-source/    # CNCF contribution workflows, review guidelines, and lessons
+├── startup/        # Idea validation, MVP playbooks, and product strategy
+└── templates/      # Reusable proposal, PR, outreach, and issue templates
 ```
 
-### [core/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/core)
+### [core/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core)
 Contains foundational systems for execution, debugging strategies, coding standards, and decision-making frameworks.
 
-### [learning/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/learning)
+### [learning/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/learning)
 Focuses on technical reading notes, active learning systems, and mapped knowledge graphs of complex systems.
 
-### [engineering/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/engineering)
+### [engineering/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering)
 Deep-dives into systems engineering, backend patterns, PostgreSQL databases, distributed systems, Kubernetes, and DevOps pipelines.
 
-### [open-source/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/open-source)
+### [open-source/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/open-source)
 Strategies for CNCF contributions, maintainer interaction protocols, PR checklists, and code review guidelines.
 
-### [career/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/career)
+### [startup/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/startup)
+Idea validation frameworks, MVP scoping playbooks, and product strategy decision tools.
+
+### [career/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/career)
 Actionable playbooks for LFX Mentorship, GSoC, Summer of Bitcoin, internships, and networking.
 
-### [templates/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates)
+### [templates/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates)
 Reusable markdown structures for cold outreach, cover letters, issue reporting, project proposals, PR descriptions, and technical writeups.
 
-### [experience/](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience)
+### [experience/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience)
 Living journals, decision logs, rejections logs, and centralized engineering lessons compiled from real-time contributions.
 
 ---
@@ -79,12 +84,12 @@ Living journals, decision logs, rejections logs, and centralized engineering les
 ## How To Use This Repository
 
 ### For AI Coding Assistants (Agents)
-Before starting any task, read [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/agents/AGENTS.md) to align with repository guidelines, coding standards, and decision frameworks.
+Before starting any task, read [GOVIND_CORE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/GOVIND_CORE.md) first — it is the primary entry point and router. It will direct you to [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md) for operating standards, and then to the relevant domain document for the task.
 
 ### For Personal Execution
-- **When starting a project:** Copy and populate [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PROJECT_PROPOSAL.md).
-- **When submitting upstream PRs:** Follow the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/templates/PR_DESCRIPTION.md) format.
-- **When reflecting on outcomes:** Update the [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/DECISION_LOG.md) and [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Desktop/opensrc/govind-os/experience/LESSONS.md) with unique IDs.
+- **When starting a project:** Copy and populate [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PROJECT_PROPOSAL.md).
+- **When submitting upstream PRs:** Follow the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md) format.
+- **When reflecting on outcomes:** Update the [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) and [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) with unique IDs.
 
 ---
 

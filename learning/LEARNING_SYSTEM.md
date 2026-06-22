@@ -15,13 +15,12 @@ The purpose of learning is not information accumulation. The purpose of learning
 
 ## Core Philosophy
 
-*   **Prefer understanding over memorization:** Focus on the underlying design principles and mechanics rather than syntax or APIs.
-*   **Prefer building over passive consumption:** Write code, run tests, and spin up prototypes rather than just watching tutorials or reading books.
-*   **Prefer application over theory alone:** Validate theoretical knowledge by deploying, measuring, and debugging it under real-world constraints.
-*   **Prefer depth over superficial breadth:** Deeply master a core set of abstractions (e.g., operating systems, networking protocols, databases) rather than skimming ten hot frameworks.
-*   **Prefer fundamentals over tools:** Learn the permanent abstractions (concurrency primitives, socket programming, B-trees) rather than the ephemeral tooling built on top of them.
-*   **Prefer compounding knowledge over fragmented knowledge:** Acquire skills that build on one another and retain their value over decades.
-*   **Prefer long-term retention over short-term recall:** Design retention loops that ensure key technical concepts remain queryable in your memory when needed.
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
+*   **Prefer building over passive consumption:** Write code, run tests, and spin up prototypes rather than just watching tutorials.
+*   **Prefer depth over superficial breadth:** Deeply master core abstractions rather than skimming hot frameworks.
+*   **Prefer fundamentals over tools:** Learn permanent abstractions (concurrency, socket programming, B-trees) over ephemeral tooling.
+*   **Prefer compounding knowledge:** Acquire skills that build on one another and retain value over decades.
 
 ---
 

@@ -46,16 +46,38 @@ before loading additional context. Then load only what the task requires.
 
 | Task | Load |
 |---|---|
-| Debugging / Root Cause Analysis | `core/DEBUGGING.md` |
-| Repository & Opportunity Analysis | `core/OPPORTUNITY_DISCOVERY.md` |
+| **Engineering** | |
+| Backend / API / Go server development | `engineering/ENGINEERING_OS.md` → route from there |
+| System design / architecture | `engineering/SYSTEM_DESIGN.md` |
+| Distributed systems / consensus | `engineering/DISTRIBUTED_SYSTEMS.md` |
+| Kubernetes / operators / cloud native | `engineering/KUBERNETES.md` + `engineering/CLOUD_NATIVE.md` |
+| Database design / PostgreSQL | `engineering/POSTGRESQL.md` |
 | Infrastructure / DevOps / CI/CD | `engineering/DEVOPS.md` |
-| Open Source Contributions | `core/OPPORTUNITY_DISCOVERY.md` + `open-source/LFX_LESSONS_2026.md` |
-| Career / Resume / Interviews | `career/CAREER_OS.md` |
-| Startup / Product / MVP | `startup/STARTUP_OS.md` |
+| **Open Source** | |
+| Repository & Opportunity Analysis | `core/OPPORTUNITY_DISCOVERY.md` |
+| Open Source Contributions (general) | `open-source/CONTRIBUTION_WORKFLOW.md` |
+| CNCF ecosystem work | `open-source/CNCF_PLAYBOOK.md` |
+| Code review (giving or receiving) | `open-source/REVIEW_GUIDELINES.md` |
+| PR submission / pre-submit workflow | `open-source/PR_CHECKLIST.md` + `templates/PR_DESCRIPTION.md` |
+| Maintainer communication | `open-source/MAINTAINER_INTERACTION.md` |
+| LFX-specific work | `open-source/LFX_LESSONS_2026.md` + `experience/LFX_2026.md` |
+| Harbor-specific work | `experience/HARBOR.md` |
+| **Core** | |
+| Debugging / Root Cause Analysis | `core/DEBUGGING.md` |
+| Technical decisions / tradeoffs | `core/DECISION_MAKING.md` |
+| Coding implementation | `core/CODING_STANDARDS.md` + `core/ENGINEERING_PRINCIPLES.md` |
+| **Career** | |
+| Career / Resume / Applications | `career/CAREER_OS.md` → route from there |
+| Project selection | `career/PROJECT_SELECTION.md` |
+| Networking / cold outreach | `career/NETWORKING.md` + `templates/COLD_OUTREACH.md` |
+| **Other Domains** | |
+| Startup / Product / MVP | `startup/STARTUP_OS.md` → route from there |
 | Learning / Skill Acquisition | `learning/LEARNING_SYSTEM.md` |
-| Historical Context / Lessons | Search `experience/` |
+| Historical Context / Lessons | `experience/LESSONS.md` + `experience/DECISION_LOG.md` |
 | Artifact Generation | Search `templates/` |
 | Unknown / Unclassified Task | Use Knowledge Discovery |
+
+**Agent overlay selection:** If using Antigravity → also load `agents/ANTIGRAVITY.md`. If using Claude → also load `agents/CLAUDE.md`. If using Cursor → also load `agents/CURSOR.md`. If using Codex → also load `agents/CODEX.md`.
 
 **Multi-domain tasks:** Load the primary document first. Add supporting documents only when necessary.
 

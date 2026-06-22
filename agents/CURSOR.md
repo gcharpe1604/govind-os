@@ -1,4 +1,4 @@
-﻿# Cursor Operating Protocol (CURSOR)
+# Cursor Operating Protocol (CURSOR)
 
 > [!NOTE]
 > **Purpose of this Document:**
@@ -83,15 +83,7 @@ Before implementation, Cursor should be able to explain:
 
 ## Lessons Learned
 
-### Lesson Template
-```markdown
-### CURSOR-XXX: [Lesson Title]
-- **Context:** 
-- **Observation:** 
-- **Lesson:** 
-- **Evidence:** 
-- **Future Application:** 
-```
+Cursor-specific lessons are captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) using the `CURSOR-XXX` identifier prefix.
 
 ---
 

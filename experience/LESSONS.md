@@ -18,7 +18,7 @@ A centralized repository of personal wisdom, rules of thumb, and principles dist
 ---
 
 ## Engineering
-*System design, debugging, testing, language patterns, performance.*
+*[EMPTY — TO BE POPULATED] System design, debugging, testing, language patterns, performance.*
 
 ---
 
@@ -37,37 +37,37 @@ A centralized repository of personal wisdom, rules of thumb, and principles dist
 ---
 
 ## Career
-*Job searching, networking, resumes, professional relationships.*
+*[EMPTY — TO BE POPULATED] Job searching, networking, resumes, professional relationships.*
 
 ---
 
 ## Learning
-*Mental models, technical reading habits, learning new codebases.*
+*[EMPTY — TO BE POPULATED] Mental models, technical reading habits, learning new codebases.*
 
 ---
 
 ## Communication
-*Asynchronous team updates, PR documentation, conflict resolution, asking technical questions.*
+*[EMPTY — TO BE POPULATED] Asynchronous team updates, PR documentation, conflict resolution, asking technical questions.*
 
 ---
 
 ## Leadership
-*Project management, mentoring, guiding community initiatives.*
+*[EMPTY — TO BE POPULATED] Project management, mentoring, guiding community initiatives.*
 
 ---
 
 ## Decision Making
-*Tradeoffs, picking frameworks, resolving tech debt vs. features.*
+*[EMPTY — TO BE POPULATED] Tradeoffs, picking frameworks, resolving tech debt vs. features.*
 
 ---
 
 ## Productivity
-*Time management, focus blocks, automation, tooling.*
+*[EMPTY — TO BE POPULATED] Time management, focus blocks, automation, tooling.*
 
 ---
 
 ## Mentorship
-*How to be mentored effectively, seeking guidance, reporting progress.*
+*[EMPTY — TO BE POPULATED] How to be mentored effectively, seeking guidance, reporting progress.*
 
 ---
 

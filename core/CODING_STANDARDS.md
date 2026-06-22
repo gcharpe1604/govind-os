@@ -12,14 +12,12 @@ Code is written once but read many times. Optimization for readability and maint
 
 ## Core Philosophy
 
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
 - **Prefer readability** over cleverness.
-- **Prefer simplicity** over unnecessary abstraction.
 - **Prefer explicit behavior** over hidden behavior.
-- **Prefer consistency** over personal preference.
 - **Prefer consistency** with the existing codebase over theoretical perfection.
-- **Prefer maintainability** over short-term speed.
 - **Optimize for future maintainers.**
-- **Leave the codebase better** than you found it.
 
 ---
 

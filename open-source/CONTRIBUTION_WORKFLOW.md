@@ -18,12 +18,10 @@ Merged pull requests are a byproduct of these goals, not the primary goal itself
 
 ## Core Philosophy
 
-- **Optimize for maintainer trust**, not contribution count.
-- **Optimize for learning**, not activity.
-- **Prefer long-term participation** over short-term bursts.
-- **Prefer understanding** before implementation.
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+
 - **Prefer small, focused changes** over monolithic updates.
-- **Respect maintainer time** in every interaction.
+- **Prefer understanding before implementation.**
 - **Leave the codebase better** than you found it.
 
 ---

@@ -1,4 +1,4 @@
-﻿# LFX Lessons 2026
+# LFX Lessons 2026
 
 ## Purpose
 This document compiles distilled technical, operational, and communication principles gathered during the LFX Mentorship program in 2026. Unlike chronological journals, this file serves as a durable playbook of reusable lessons to guide future open-source contributions, applications, and engineering projects.
@@ -140,4 +140,4 @@ Understand the forces driving the maintainers reviewing your code:
 ---
 
 ## End-of-Program Synthesis
-*To be populated upon LFX completion, summarizing overall takeaways and key future execution improvements.*
+*[EMPTY — TO BE POPULATED] To be populated upon LFX completion, summarizing overall takeaways and key future execution improvements.*

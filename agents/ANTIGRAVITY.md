@@ -1,4 +1,4 @@
-﻿# Antigravity Operating Protocol (ANTIGRAVITY)
+# Antigravity Operating Protocol (ANTIGRAVITY)
 
 > [!NOTE]
 > **Purpose of this Document:**
@@ -58,15 +58,7 @@ For critical technical decisions, Antigravity must evaluate the problem through 
 
 ## Lessons Learned
 
-### Lesson Template
-```markdown
-### ANTIGRAVITY-XXX: [Lesson Title]
-- **Context:** 
-- **Observation:** 
-- **Lesson:** 
-- **Evidence:** 
-- **Future Application:** 
-```
+Antigravity-specific lessons are captured below and in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) using the `ANTIGRAVITY-XXX` identifier prefix.
 
 ### ANTIGRAVITY-001: Separation of Concerns in Agent Configurations
 - **Context:** Refactoring agent profiles to eliminate redundancy across `AGENTS.md` and specific overlays.

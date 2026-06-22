@@ -18,15 +18,11 @@ The purpose of maintainer interaction is to build trust, accelerate learning, an
 
 ## Core Philosophy
 
-When communicating with maintainers and contributing to open-source communities, apply these guidelines:
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
-*   **Respect maintainer time:** Treat maintainer attention as a highly constrained resource. Optimize all communications for speed, clarity, and ease of review.
-*   **Optimize for clarity:** Avoid vague descriptions or multi-paragraph walls of text. Use structured lists, code blocks, screenshots, and reproduction scripts.
-*   **Seek understanding before proposing changes:** Understand the architecture, history, and goals of the project before requesting changes or submitting features.
-*   **Prefer collaboration over argument:** Approach technical disagreements as joint problem-solving exercises rather than personal conflicts.
-*   **Build trust through consistency:** Follow through on your commitments. It is better to deliver one small, clean PR a week than to open three giant, incomplete PRs and abandon them.
+*   **Respect maintainer time:** Treat maintainer attention as a highly constrained resource. Optimize all communications for clarity and ease of review.
+*   **Prefer collaboration over argument:** Approach technical disagreements as joint problem-solving exercises.
 *   **Accept feedback professionally:** Treat code review comments as opportunities to learn the project's standards, not as personal criticisms.
-*   **Focus on project goals:** Prioritize the project's health, stability, and design patterns over your personal coding preferences.
 
 ---
 

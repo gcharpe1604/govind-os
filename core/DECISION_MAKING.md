@@ -19,15 +19,12 @@ Every decision is an allocation of finite lifecycle resources. This framework en
 
 ## Core Philosophy
 
-When evaluating choices, career directions, or technical paths, apply these directional preferences:
+→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
-*   **Prefer long-term leverage over short-term rewards:** Focus on assets and relationships that yield disproportionate returns over years, rather than instant gratification.
-*   **Prefer evidence over assumptions:** Base critical actions on verified data, benchmarks, and logical proofs, not on conventional wisdom or hype.
-*   **Prefer first principles over conventional opinions:** Strip problems down to their fundamental truths rather than copying peer behaviors.
-*   **Prefer compounding opportunities over isolated wins:** Invest in skills, codebases, and networks that build upon themselves and continue producing value autonomously.
-*   **Prefer asymmetric upside opportunities:** Seek options with capped, manageable downsides but unbounded potential upsides.
-*   **Prefer learning-rich environments:** Position yourself where rate of skill acquisition is maximized, even at the cost of short-term comfort.
-*   **Prefer action after sufficient analysis:** Avoid analysis paralysis. Gather enough data to make an informed choice, then execute decisively and adjust based on feedback.
+*   **Prefer asymmetric upside opportunities:** Seek options with capped downsides but unbounded potential upsides.
+*   **Prefer compounding opportunities over isolated wins:** Invest in skills, codebases, and networks that build upon themselves.
+*   **Prefer first principles over conventional opinions:** Strip problems down to their fundamental truths.
+*   **Prefer action after sufficient analysis:** Avoid analysis paralysis. Gather enough data, then execute decisively.
 
 ---
 
@@ -207,16 +204,7 @@ For key decisions, document the council's evaluation:
 
 ## Decision Journaling
 
-To improve your decision-making calibration, you must maintain a feedback loop. Write down key decisions in a journal:
-
-*   **Date & Time:** Recording when the decision was made.
-*   **The Decision:** What choice was made, and what options were rejected.
-*   **The Context:** The circumstances, emotions, and constraints surrounding the choice.
-*   **The Reasoning:** Why we chose this specific path (summarizing the trade-offs).
-*   **Expected Outcome:** What we expect to happen, and by when.
-*   **Confidence Level:** Rate your confidence in this decision from 1% to 100%.
-
-*Review your journal entries 6 to 12 months later. This prevents hindsight bias and highlights systemic errors in your risk calculations.*
+Record key decisions in [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) using the structured entry template defined there. Review journal entries 6 to 12 months later to prevent hindsight bias and highlight systemic errors in risk calculations.
 
 ---
 

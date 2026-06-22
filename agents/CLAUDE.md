@@ -1,4 +1,4 @@
-﻿# Claude Operating Protocol (CLAUDE)
+# Claude Operating Protocol (CLAUDE)
 
 > [!NOTE]
 > **Purpose of this Document:**
@@ -98,15 +98,7 @@ Apply this structure whenever the response involves a decision, a review, or an 
 
 ## Lessons Learned
 
-### Lesson Template
-```markdown
-### CLAUDE-XXX: [Lesson Title]
-- **Context:** 
-- **Observation:** 
-- **Lesson:** 
-- **Evidence:** 
-- **Future Application:** 
-```
+Claude-specific lessons are captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) using the `CLAUDE-XXX` identifier prefix.
 
 ---
 

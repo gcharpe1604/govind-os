@@ -1,4 +1,4 @@
-﻿# Codex Operating Protocol (CODEX)
+# Codex Operating Protocol (CODEX)
 
 > [!NOTE]
 > **Purpose of this Document:**
@@ -56,15 +56,7 @@ Validation must compile and pass through the relevant local test runner before c
 
 ## Lessons Learned
 
-### Lesson Template
-```markdown
-### CODEX-XXX: [Lesson Title]
-- **Context:** 
-- **Observation:** 
-- **Lesson:** 
-- **Evidence:** 
-- **Future Application:** 
-```
+Codex-specific lessons are captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) using the `CODEX-XXX` identifier prefix.
 
 ---
 

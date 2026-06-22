@@ -41,14 +41,14 @@ Use the following structured criteria to make major decisions:
 ---
 
 ## Quarterly Reviews
-*Consolidated logs summarizing the state of decisions and outcomes each quarter.*
+*[EMPTY — TO BE POPULATED] Consolidated logs summarizing the state of decisions and outcomes each quarter.*
 
 ---
 
 ## Decision Accuracy Analysis
-*A high-level view tracking percentage of correct/incorrect decisions and key reasons (e.g., overconfidence, lack of information).*
+*[EMPTY — TO BE POPULATED] A high-level view tracking percentage of correct/incorrect decisions and key reasons (e.g., overconfidence, lack of information).*
 
 ---
 
 ## Lessons
-*Decisional lessons learned from retro reviews.*
+*[EMPTY — TO BE POPULATED] Decisional lessons learned from retro reviews.*

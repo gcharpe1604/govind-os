@@ -34,6 +34,15 @@ A centralized repository of personal wisdom, rules of thumb, and principles dist
   - **What I Learned:** Reviewability matters. Maintainers have limited time; smaller chunks reduce cognitive load and lead to rapid approvals.
   - **Future Application:** Keep PRs highly focused, targeting one command or one fix at a time.
 
+### LESSON-003: Auditing SDK Capabilities for High-Signal Feature Parity
+- **Lesson:** Audit the underlying SDK capabilities against the CLI's feature checklist to find high-signal missing features.
+  - **Source:** Harbor CLI
+  - **Confidence:** Repeatedly Verified
+  - **Context:** Deciding which unimplemented WebUI feature to build in Harbor CLI.
+  - **What Happened:** Reviewing the `README.md` identified several unimplemented feature groups. Running Go tooling (like `go list` and `go doc`) on the `go-client` dependency revealed that the complete client package and API model for Garbage Collection (`client/gc`) was already built and ready.
+  - **What I Learned:** Sometimes, the client SDK layer is fully implemented, but the command layer has not caught up. Proposing/building these features has high acceptance probability because they are pre-validated by SDK inclusion and directly address project milestones.
+  - **Future Application:** Before designing/implementing custom wrappers, always inspect the SDK packages to see if the client endpoints are already stubbed out or fully defined.
+
 ---
 
 ## Career

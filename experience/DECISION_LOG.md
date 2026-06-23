@@ -38,6 +38,20 @@ Use the following structured criteria to make major decisions:
 - **What Was Learned?** 
 - **Future Adjustment:** 
 
+### DECISION-001: Implementation of Garbage Collection (GC) in Harbor CLI
+- **Date:** 2026-06-22
+- **Decision:** Implement a complete, native `gc` subcommand group in Harbor CLI (including history, log, schedule, stop, trigger, and update-schedule).
+- **Decision Type:** Open Source / Project
+- **Reversibility:** Type 2 (Reversible)
+- **Options Considered:**
+  1. Option A: Implement GC as a standalone, feature-complete subcommand group (history, log, schedule, stop, trigger, update-schedule).
+  2. Option B: Implement only manual trigger and history to minimize CLI surface.
+- **Reasoning:** Harbor CLI aims for WebUI feature parity (where GC is a key administrative dashboard element). The `go-client` SDK already provides a robust, complete API client for `gc`. Implementing it fully ensures a complete administrative workflow in the CLI.
+- **Opportunity Cost:** Deferring other dashboards like Job Service or Distribution.
+- **Expected Outcome:** Users can fully manage Garbage Collection, trigger runs, view logs, and configure cron schedules directly from their terminals.
+- **Confidence:** High
+- **Review Date:** 2026-07-22
+
 ---
 
 ## Quarterly Reviews

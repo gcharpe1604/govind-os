@@ -38,7 +38,7 @@ Managers are evaluating your signal across:
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Prefer capability over credentials:** Focus on demonstrating deep systems understanding rather than listing brand name certificates.
 *   **Prefer real systems over toy projects:** Build software that handles real network traffic, uses persistent databases, and handles concurrency.

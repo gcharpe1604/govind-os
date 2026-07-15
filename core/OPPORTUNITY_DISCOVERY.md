@@ -220,7 +220,7 @@ _Opportunities should never skip validation or ranking. The objective is not fin
 
 # Discovery Frameworks
 
-For detailed discovery checklists, validation steps, and severity assessments, load [core/DISCOVERY_FRAMEWORKS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/DISCOVERY_FRAMEWORKS.md).
+For detailed discovery checklists, validation steps, and severity assessments, load [core/DISCOVERY_FRAMEWORKS.md](DISCOVERY_FRAMEWORKS.md).
 
 | Framework | When to Load |
 |---|---|
@@ -432,7 +432,7 @@ To maintain high standards, actively avoid the following discovery anti-patterns
 
 # Lessons Learned
 
-Opportunity discovery lessons are captured in [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) using the `OPPORTUNITY-XXX` identifier prefix.
+Opportunity discovery lessons are captured in [experience/LESSONS.md](../experience/LESSONS.md) using the `OPPORTUNITY-XXX` identifier prefix.
 
 ---
 

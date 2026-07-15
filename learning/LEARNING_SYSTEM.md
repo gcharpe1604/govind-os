@@ -15,7 +15,7 @@ The purpose of learning is not information accumulation. The purpose of learning
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Prefer building over passive consumption:** Write code, run tests, and spin up prototypes rather than just watching tutorials.
 *   **Prefer depth over superficial breadth:** Deeply master core abstractions rather than skimming hot frameworks.

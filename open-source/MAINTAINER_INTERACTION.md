@@ -18,7 +18,7 @@ The purpose of maintainer interaction is to build trust, accelerate learning, an
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Respect maintainer time:** Treat maintainer attention as a highly constrained resource. Optimize all communications for clarity and ease of review.
 *   **Prefer collaboration over argument:** Approach technical disagreements as joint problem-solving exercises.

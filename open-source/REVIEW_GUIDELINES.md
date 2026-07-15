@@ -18,7 +18,7 @@ The purpose of code review is to improve code quality, reduce system defects, sh
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Focus on systems, not personalities:** Address reviews to the code itself, not the author.
 *   **Prefer evidence over opinion:** Base design feedback on codebase consistency, benchmarks, or established patterns.

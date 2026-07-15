@@ -1,113 +1,61 @@
-# GOVIND CORE
+# Govind OS Router
 
-Primary entry point to Govind-OS.
+Use this file after [AGENTS.md](AGENTS.md) only when the task benefits from a Govind OS workflow. Select one primary playbook. Add optional references only when local evidence leaves a specific gap.
 
----
+## Coding Routes
 
-# Purpose
+| Task signal | Primary playbook | Optional reference |
+|---|---|---|
+| Implement, change, refactor, build | [Implement](playbooks/IMPLEMENT.md) | `core/CODING_STANDARDS.md`, then one relevant `engineering/` document |
+| Diagnose, explain failure, find root cause | [Diagnose](playbooks/DIAGNOSE.md) | `core/DEBUGGING.md` |
+| Review code, diff, design, or pull request | [Review](playbooks/REVIEW.md) | `open-source/REVIEW_GUIDELINES.md` |
+| Fix CI, address PR feedback, prepare or update a PR | [PR and CI](playbooks/PR_CI.md) | `open-source/PR_CHECKLIST.md`, project `CONTRIBUTING.md` |
+| Research, inspect unfamiliar repository, find an opportunity | [Research](playbooks/RESEARCH.md) | `core/OPPORTUNITY_DISCOVERY.md`; add `core/DISCOVERY_FRAMEWORKS.md` only for systematic discovery |
+| Architecture or meaningful technical trade-off | [Decide](playbooks/DECIDE.md) | `core/DECISION_MAKING.md`, relevant engineering reference |
+| Documentation-only change or technical artifact | [Documentation](playbooks/DOCUMENT.md) | Matching file in `templates/` |
 
-GOVIND_CORE answers three questions:
+If the request combines tasks, choose the playbook that governs the requested outcome. Add a second only when it introduces a distinct required action, such as implementation followed by PR publication.
 
-1. **How should I think?** → Follow `agents/AGENTS.md`
-2. **What should I load?** → Task Routing
-3. **What if I don't know?** → Search Govind-OS
+## Domain References
 
-Everything else lives in specialized documents.
+These are cold references, not mandatory policy.
 
----
-
-# Default Operating Mode
-
-```text
-Understand → Classify → Load → Execute → Validate
-```
-
-`agents/AGENTS.md` defines:
-
-- Engineering principles
-- Decision-making standards
-- Validation requirements
-- Repository interaction standards
-
-All work should follow `agents/AGENTS.md`.
-
-> GOVIND_CORE = Bootstrap. AGENTS.md = Main Operating System.
-
----
-
-# Task Routing
-
-Always load:
-
-- `GOVIND_CORE.md`
-- `agents/AGENTS.md`
-
-before loading additional context. Then load only what the task requires.
-
-| Task | Load |
+| Evidence gap | Load |
 |---|---|
-| **Engineering** | |
-| Backend / API / Go server development | `engineering/ENGINEERING_OS.md` → route from there |
-| System design / architecture | `engineering/SYSTEM_DESIGN.md` |
-| Distributed systems / consensus | `engineering/DISTRIBUTED_SYSTEMS.md` |
-| Kubernetes / operators / cloud native | `engineering/KUBERNETES.md` + `engineering/CLOUD_NATIVE.md` |
-| Database design / PostgreSQL | `engineering/POSTGRESQL.md` |
-| Infrastructure / DevOps / CI/CD | `engineering/DEVOPS.md` |
-| **Open Source** | |
-| Repository & Opportunity Analysis | `core/OPPORTUNITY_DISCOVERY.md` |
-| Bug/Feature/Doc/Test/Debt/Arch Discovery | `core/DISCOVERY_FRAMEWORKS.md` (load only when needed) |
-| Open Source Contributions (general) | `open-source/CONTRIBUTION_WORKFLOW.md` |
-| CNCF ecosystem work | `open-source/CNCF_PLAYBOOK.md` |
-| Code review (giving or receiving) | `open-source/REVIEW_GUIDELINES.md` |
-| PR submission / pre-submit workflow | `open-source/PR_CHECKLIST.md` + `templates/PR_DESCRIPTION.md` |
+| Backend/API | `engineering/BACKEND.md` |
+| System architecture | `engineering/SYSTEM_DESIGN.md` |
+| Distributed systems | `engineering/DISTRIBUTED_SYSTEMS.md` |
+| PostgreSQL/data modeling | `engineering/POSTGRESQL.md` |
+| Kubernetes/cloud native | `engineering/KUBERNETES.md`, then `engineering/CLOUD_NATIVE.md` if needed |
+| CI/CD/infrastructure | `engineering/DEVOPS.md` |
+| Open-source contribution | `open-source/CONTRIBUTION_WORKFLOW.md` |
 | Maintainer communication | `open-source/MAINTAINER_INTERACTION.md` |
-| LFX-specific work | `open-source/LFX_LESSONS_2026.md` + `experience/LFX_2026.md` |
-| Harbor-specific work | `experience/HARBOR.md` |
-| **Core** | |
-| Debugging / Root Cause Analysis | `core/DEBUGGING.md` |
-| Technical decisions / tradeoffs | `core/DECISION_MAKING.md` |
-| Coding implementation | `core/CODING_STANDARDS.md` + `core/ENGINEERING_PRINCIPLES.md` |
-| **Career** | |
-| Career / Resume / Applications | `career/CAREER_OS.md` → route from there |
-| Project selection | `career/PROJECT_SELECTION.md` |
-| Networking / cold outreach | `career/NETWORKING.md` + `templates/COLD_OUTREACH.md` |
-| **Other Domains** | |
-| Startup / Product / MVP | `startup/STARTUP_OS.md` → route from there |
-| Learning / Skill Acquisition | `learning/LEARNING_SYSTEM.md` |
-| Historical Context / Lessons | `experience/LESSONS.md` + `experience/DECISION_LOG.md` |
-| Artifact Generation | Search `templates/` |
-| Unknown / Unclassified Task | Use Knowledge Discovery |
+| Harbor or LFX history | Matching file under `experience/` or `open-source/` |
+| Career, startup, or learning | Corresponding domain entry point |
 
-**Agent overlay selection:** If using Antigravity → also load `agents/ANTIGRAVITY.md`. If using Claude → also load `agents/CLAUDE.md`. If using Cursor → also load `agents/CURSOR.md`. If using Codex → also load `agents/CODEX.md`.
+Load one reference first. Search within it before reading it fully. Stop when the evidence gap is resolved.
 
-**Multi-domain tasks:** Load the primary document first. Add supporting documents only when necessary.
+## Tool Overlays
 
----
+Tool behavior is normally governed by the tool's current platform instructions. Load an overlay only when its named capability matters and no higher-priority instruction already covers it:
 
-# Knowledge Discovery
+- [Codex](agents/CODEX.md)
+- [Claude](agents/CLAUDE.md)
+- [Cursor](agents/CURSOR.md)
+- [Antigravity](agents/ANTIGRAVITY.md)
 
-When a task does not fit the routing table:
+## History and Templates
 
-1. Search Govind-OS for relevant documents.
-2. Prefer specific guidance over general guidance.
-3. Load the most relevant document.
-4. Expand context incrementally only if needed.
+- `experience/` records prior outcomes. Use a lesson only when its context and applicability match current evidence.
+- `templates/` structures outputs; it does not authorize publishing or external actions.
+- Never let a historical command, path, dependency version, status, or plan override current repository state.
 
-**Mandatory checkpoints:**
-- **Search before creating.** Before proposing new content, patterns, or frameworks, verify nothing similar already exists in Govind-OS.
-- **Evidence before action.** Before proposing a bug fix or architectural change, reproduce the issue locally or cite concrete evidence.
-- **Validate against templates.** Before generating artifacts (proposals, PRs, outreach), load the matching template from `templates/`.
+## Unknown Tasks
 
-Prefer existing guidance over invented guidance.
-Prefer specific documents over broad loading.
+1. Read the target repository's local instructions.
+2. Search filenames and text for task keywords.
+3. Choose the closest primary playbook.
+4. Add one reference only if the playbook and local evidence are insufficient.
+5. If no route fits, follow the kernel directly; do not invent a new framework during the task.
 
----
-
-# Success Criteria
-
-GOVIND_CORE succeeds when agents:
-
-- Load only relevant context.
-- Discover existing knowledge before creating new guidance.
-- Produce evidence-based, validated outputs.
-- Keep Govind-OS modular as it grows.
+See [docs/CONTENT_MAP.md](docs/CONTENT_MAP.md) for ownership and lifecycle rules.

@@ -32,7 +32,7 @@ Organizations select contributors they believe can:
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Optimize for understanding:** Deeply comprehend the protocols (Bitcoin, Lightning, etc.) rather than rushing to write code.
 *   **Prefer engineering depth over project prestige:** Choose projects that stretch your technical skills rather than selecting based on popularity.

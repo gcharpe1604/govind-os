@@ -12,7 +12,7 @@ CNCF participation is not merely about merged pull requests. The objective is to
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 - **CNCF projects are communities, not repositories.** Code is one component; trust, communication, and consistency matter equally.
 - **Prefer long-term participation** over short-term activity bursts.

@@ -19,7 +19,7 @@ Every decision is an allocation of finite lifecycle resources. This framework en
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Prefer asymmetric upside opportunities:** Seek options with capped downsides but unbounded potential upsides.
 *   **Prefer compounding opportunities over isolated wins:** Invest in skills, codebases, and networks that build upon themselves.
@@ -163,7 +163,7 @@ When faced with a significant Type 1 decision, run it through this ten-step proc
 
 ## Council Framework
 
-A multi-perspective evaluation tool for Type 1 decisions. For full usage details, see [agents/CLAUDE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/CLAUDE.md).
+A multi-perspective evaluation tool for Type 1 decisions. For full usage details, see [agents/CLAUDE.md](../agents/CLAUDE.md).
 
 | Persona | Focus | Core Question |
 |---|---|---|
@@ -179,7 +179,7 @@ A multi-perspective evaluation tool for Type 1 decisions. For full usage details
 
 ## Decision Journaling
 
-Record key decisions in [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) using the structured entry template defined there. Review journal entries 6 to 12 months later to prevent hindsight bias and highlight systemic errors in risk calculations.
+Record key decisions in [experience/DECISION_LOG.md](../experience/DECISION_LOG.md) using the structured entry template defined there. Review journal entries 6 to 12 months later to prevent hindsight bias and highlight systemic errors in risk calculations.
 
 ---
 

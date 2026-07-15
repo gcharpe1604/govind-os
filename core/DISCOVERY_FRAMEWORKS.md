@@ -1,6 +1,6 @@
 # Discovery Frameworks
 
-Reference document containing the 6 category-specific discovery frameworks used in the [Opportunity Discovery Pipeline](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/OPPORTUNITY_DISCOVERY.md).
+Reference document containing the 6 category-specific discovery frameworks used in the [Opportunity Discovery Pipeline](OPPORTUNITY_DISCOVERY.md).
 
 → Load this document only when you need the specific discovery checklist for a category. The pipeline, scoring formula, and ranking system remain in `core/OPPORTUNITY_DISCOVERY.md`.
 

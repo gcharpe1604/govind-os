@@ -14,7 +14,7 @@ The goal is not to maximize AI usage. The goal is to maximize the quality of out
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](ENGINEERING_PRINCIPLES.md) for universal principles.
 
 - **Treat AI as a collaborator**, not an authority.
 - **Prefer verification** over trust.

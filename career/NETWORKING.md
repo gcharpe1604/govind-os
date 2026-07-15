@@ -30,7 +30,7 @@ Networking is the process of:
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Prefer relationships over transactions:** Treat developers as peers and mentors rather than stepping stones.
 *   **Prefer helping before asking:** Always look for ways to add value before requesting guidance or referrals.

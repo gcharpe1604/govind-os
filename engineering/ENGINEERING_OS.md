@@ -32,7 +32,7 @@ Engineering OS answers three questions:
 
 # Core Engineering Principles
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for the full principles constitution.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for the full principles constitution.
 
 **Reliability before scale.**
 Ensure systems work correctly under standard loads before designing for massive scale.

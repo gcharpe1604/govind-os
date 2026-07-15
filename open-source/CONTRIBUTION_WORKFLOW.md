@@ -18,7 +18,7 @@ Merged pull requests are a byproduct of these goals, not the primary goal itself
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 - **Prefer small, focused changes** over monolithic updates.
 - **Prefer understanding before implementation.**

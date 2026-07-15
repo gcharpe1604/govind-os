@@ -167,10 +167,10 @@ When debugging unfamiliar repositories:
 ---
 
 ## References
-- [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md)
-- [engineering/DEVOPS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering/DEVOPS.md)
-- [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md)
-- [open-source/LFX_LESSONS_2026.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/open-source/LFX_LESSONS_2026.md)
+- [core/ENGINEERING_PRINCIPLES.md](ENGINEERING_PRINCIPLES.md)
+- [engineering/DEVOPS.md](../engineering/DEVOPS.md)
+- [experience/LESSONS.md](../experience/LESSONS.md)
+- [open-source/LFX_LESSONS_2026.md](../open-source/LFX_LESSONS_2026.md)
 
 ---
 

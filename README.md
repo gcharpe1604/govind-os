@@ -1,109 +1,53 @@
-# Govind-OS
+# Govind OS
 
-> A living framework and personal operating system for software engineering, open-source contribution, systems architecture, and continuous learning.
+Govind OS is a small operating layer for reliable engineering work with coding agents. Its value is not the size of its knowledge base; it is choosing the next correct action with the least sufficient context.
 
----
+## Start Here
 
-## Purpose
-Govind-OS exists to codify engineering principles, career workflows, technical playbooks, and decision logs into a reusable knowledge base. By structuring experience and lessons into a searchable repository, it serves as a personal playbook for high-leverage software execution.
+- **Agents:** load [AGENTS.md](AGENTS.md). It is the only mandatory Govind OS policy.
+- **Task routing:** use [GOVIND_CORE.md](GOVIND_CORE.md) when a task needs a playbook or reference.
+- **Humans:** use the same router or browse the [content map](docs/CONTENT_MAP.md).
 
-Memory is unreliable, but structured knowledge compounds over time. This repository acts as the single source of truth for:
-- How I build backend and cloud-native systems.
-- How I navigate, contribute to, and interact with complex open-source codebases (like CNCF Harbor).
-- How I make strategic engineering and career decisions.
+Do not read the whole repository. A normal coding task should load the kernel, local project instructions, and at most one Govind OS playbook. References and history are opt-in.
 
----
+## Architecture
 
-## Problems This Repository Solves
-- **Hindsight Bias:** By tracking decisions and rejections in real time with confidence scores and expected success probabilities, it creates an objective record to analyze judgment over time.
-- **Review Latency & PR Rejections:** Direct integration of the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md) and [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PROJECT_PROPOSAL.md) templates prevents scope creep and speeds up maintainer reviews.
-- **Knowledge Decay:** Distilling fleeting bugs and review feedback into permanent [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) items preserves wisdom that would otherwise fade.
-- **AI Agent Misalignment:** The [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md) operating manual guarantees that coding assistants remain aligned with codebase conventions and failure rules.
+| Layer | Purpose | Default load |
+|---|---|---|
+| [AGENTS.md](AGENTS.md) | Authority, scope, evidence, change, safety, verification | Yes |
+| [GOVIND_CORE.md](GOVIND_CORE.md) | Task-to-playbook router | When needed |
+| [`playbooks/`](playbooks/) | Short executable workflows | One per task |
+| [`agents/`](agents/) | Tool-specific capability deltas | Only for that tool |
+| `core/`, `engineering/`, `open-source/` | Deep optional references | On evidence gap |
+| `experience/` | Project history and proven lessons | Only on a matching trigger |
+| `career/`, `startup/`, `learning/` | Non-coding operating references | Only for those domains |
+| `templates/` | Reusable output structures | When producing that artifact |
 
----
+The [content map](docs/CONTENT_MAP.md) defines these boundaries. The old master file index is retained as a compatibility pointer at [core/WORKFLOW_PLAYBOOK.md](core/WORKFLOW_PLAYBOOK.md).
 
-## Design Principles
-- **Minimal Abstraction:** Prioritize readability and simplicity. Abstractions are created only when a pattern is repeated at least three times (see [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md)).
-- **Evidence Over Enthusiasm:** Prioritize concrete deliverables, PRs, and technical writeups over claims of passion.
-- **Traceability:** Maintain a continuous log of decisions (with reversibility analysis), rejections (for system improvements), and lessons.
-- **Decoupled Architecture:** Keep templates distinct from active journals, and keep command configurations separated from core backend execution logic.
+## Operating Targets
 
----
+- Mandatory kernel: at most 900 words (about 1,200 tokens).
+- Router: at most 900 words.
+- Tool overlay: at most 250 words.
+- Playbook: at most 600 words.
+- Typical Govind OS task context: below 3,000 tokens, excluding project-local evidence.
+- Zero absolute local links and zero broken internal links.
 
-## What This Repository Is Not
-To maintain its sharp focus and high quality, Govind-OS strictly enforces what it is *not*:
-- **Not a note-taking repository:** It does not host random collections of thoughts, tutorials, or reference links.
-- **Not a productivity system:** It is not a task manager, calendar helper, or daily planner.
-- **Not a second brain:** It is not a dumping ground for general life information. Every document is actionable and linked to systems engineering, open source, or professional development.
-- **Not a collection of random resources:** It contains only structured, compiled, and highly relevant technical blueprints.
+Run the repository validator after changing the OS:
 
----
-
-## Repository Structure
-
-```
-govind-os/
-├── GOVIND_CORE.md  # Primary entry point and router
-├── agents/         # Operating instructions for AI assistants
-├── career/         # Playbooks for GSoC, LFX, networking, and applications
-│   └── CAREER_OS.md  # Career domain entry point
-├── core/           # Foundational guidelines on coding, workflows, and debugging
-│   └── DISCOVERY_FRAMEWORKS.md  # Conditional-load discovery checklists
-├── engineering/    # Deep-dives into systems engineering, backend, databases, and DevOps
-│   └── ENGINEERING_OS.md  # Engineering domain entry point
-├── experience/     # Chronological mentorship journals, project journals, and logs
-├── learning/       # Book notes, target backlogs, and knowledge mappings
-├── open-source/    # CNCF contribution workflows, review guidelines, and lessons
-├── startup/        # Idea validation, MVP playbooks, and product strategy
-│   └── STARTUP_OS.md  # Startup domain entry point
-└── templates/      # Reusable proposal, PR, outreach, and issue templates
+```powershell
+pwsh -File scripts/validate-govind-os.ps1
 ```
 
-### [core/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core)
-Contains foundational systems for execution, debugging strategies, coding standards, and decision-making frameworks.
+Behavioral routing expectations live in [tests/ROUTING_SCENARIOS.md](tests/ROUTING_SCENARIOS.md). Token reduction is accepted only when correctness, scope, precedence, and verification behavior are preserved.
 
-### [learning/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/learning)
-Focuses on technical reading notes, active learning systems, and mapped knowledge graphs of complex systems.
+## Design Rules
 
-### [engineering/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/engineering)
-Deep-dives into systems engineering, backend patterns, PostgreSQL databases, distributed systems, Kubernetes, and DevOps pipelines.
+- Project-local instructions and current evidence override Govind OS.
+- One rule has one authoritative home; other documents link instead of restating it.
+- Generic technical knowledge stays cold. Personalized lessons remain searchable with evidence and applicability.
+- New documents need a unique operational purpose, a routing trigger, and a clear owner layer.
+- Repeated failures may promote a concise rule; stale rules should be corrected or retired.
 
-### [open-source/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/open-source)
-Strategies for CNCF contributions, maintainer interaction protocols, PR checklists, and code review guidelines.
-
-### [startup/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/startup)
-Idea validation frameworks, MVP scoping playbooks, and product strategy decision tools.
-
-### [career/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/career)
-Actionable playbooks for LFX Mentorship, GSoC, Summer of Bitcoin, internships, and networking.
-
-### [templates/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates)
-Reusable markdown structures for cold outreach, cover letters, issue reporting, project proposals, PR descriptions, and technical writeups.
-
-### [experience/](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience)
-Living journals, decision logs, rejections logs, and centralized engineering lessons compiled from real-time contributions.
-
----
-
-## How To Use This Repository
-
-### For AI Coding Assistants (Agents)
-Before starting any task, read [GOVIND_CORE.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/GOVIND_CORE.md) first — it is the primary entry point and router. It will direct you to [agents/AGENTS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/agents/AGENTS.md) for operating standards, and then to the relevant domain document for the task.
-
-### For Personal Execution
-- **When starting a project:** Copy and populate [templates/PROJECT_PROPOSAL.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PROJECT_PROPOSAL.md).
-- **When submitting upstream PRs:** Follow the [templates/PR_DESCRIPTION.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/templates/PR_DESCRIPTION.md) format.
-- **When reflecting on outcomes:** Update the [experience/DECISION_LOG.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/DECISION_LOG.md) and [experience/LESSONS.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/experience/LESSONS.md) with unique IDs.
-
----
-
-## Core Focus Areas
-- **Open Source:** Building and contributing to upstream ecosystems (CNCF Harbor, OCI registry specs).
-- **Backend Engineering:** Architecting reliable Go systems, optimizing SQL databases, and designing robust API contracts.
-- **Cloud Native Systems:** Deploying scalable containerized infrastructure using Kubernetes, Docker, and standard orchestrators.
-- **Distributed Systems:** Managing asynchronous job queues, event-driven communications, and eventual consistency.
-
----
-
-## Long-Term Vision
-To scale Govind-OS into a comprehensive engineering playbook that guarantees high-signal execution across open-source communities, backend architectures, and research initiatives.
+Govind OS is successful when it reduces unnecessary reading and retries while improving correctness, maintainability, and honest verification.

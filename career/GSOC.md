@@ -27,7 +27,7 @@ GSoC is not an academic coding contest.
 
 ## Core Philosophy
 
-→ See [core/ENGINEERING_PRINCIPLES.md](file:///c:/Users/govin/OneDrive/Documents/opensrc/govind-os/core/ENGINEERING_PRINCIPLES.md) for universal principles.
+→ See [core/ENGINEERING_PRINCIPLES.md](../core/ENGINEERING_PRINCIPLES.md) for universal principles.
 
 *   **Optimize for contribution quality:** One thorough, well-tested bug fix is worth more than ten minor typo corrections.
 *   **Optimize for long-term participation:** Enter a project intending to remain active long after the official GSoC period ends.

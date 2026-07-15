@@ -1,27 +1,20 @@
 # Govind OS Content Map
 
-This map prevents the repository from becoming one undifferentiated prompt. Classification determines authority and load behavior; directory location alone does not make content mandatory.
+Every retained file has one operational purpose. Directory location never makes content mandatory.
 
 ## Content Classes
 
 | Path | Class | Load rule | Owner purpose |
 |---|---|---|---|
 | `AGENTS.md` | Kernel | Automatic/default | Stable cross-project behavior and safety |
-| `GOVIND_CORE.md` | Router | When task routing helps | Select one playbook and optional reference |
+| `GOVIND_CORE.md` | Router | When routing helps | Select one playbook |
 | `playbooks/*.md` | Active workflow | One primary file per task | Executable task procedure |
-| `agents/*.md` | Compatibility/overlay | Only for a matching tool capability | Tool-specific deltas; no global policy |
-| `core/*.md` | Reference | On a named evidence gap | Deep methods and legacy compatibility |
-| `engineering/*.md` | Reference | On a matching technical gap | Optional domain knowledge |
-| `open-source/*.md` | Reference | For upstream contribution work | Community, review, and PR detail |
-| `experience/*.md` | History | Only when project and trigger match | Proven outcomes, decisions, and lessons |
-| `career/*.md` | Reference | Career tasks only | Applications and program strategy |
-| `startup/*.md` | Reference | Product/startup tasks only | Validation and delivery strategy |
-| `learning/*.md` | Reference/history | Learning tasks only | Learning plans and notes |
-| `templates/*.md` | Template | When producing that artifact | Output structure, not policy or authority |
-| `docs/*.md` | System metadata | Maintainers/audits | Architecture, classification, budgets |
+| `experience/*.md` | History | Only when project and trigger match | Outcomes, decisions, and lessons |
+| `templates/*.md` | Template | When producing that artifact | Output structure, never authority |
+| `docs/*.md` | System metadata | Maintainers/audits | Architecture, classification, and budgets |
 | `tests/*.md` | Characterization | OS validation | Expected routing and safeguards |
 
-`README.md` is human orientation. `core/WORKFLOW_PLAYBOOK.md` and `agents/AGENTS.md` are compatibility pointers, not additional authorities.
+`README.md` is human orientation. Tool-specific behavior comes from current platform instructions, not stored overlays.
 
 ## Active Context Contract
 
@@ -29,41 +22,32 @@ A normal task loads:
 
 1. the target repository's local instructions;
 2. root `AGENTS.md`;
-3. at most one primary Govind OS playbook;
-4. one optional reference only when local evidence and the playbook leave a concrete gap.
+3. at most one primary playbook;
+4. history or a template only when its exact trigger matches.
 
-`GOVIND_CORE.md` may be used to choose step 3. History is never loaded merely because it exists. Whole-repository loading is a routing failure.
+`GOVIND_CORE.md` may select step 3. Whole-repository loading is a routing failure.
 
-## Reference Quality Gate
+## Retention Gate
 
-Reference material is useful only when it contributes at least one of:
+Content remains only when it contributes at least one of:
 
-- a Govind-specific preference or constraint;
-- a proven failure pattern with evidence;
-- a decision gate or executable checklist;
-- a project-specific map, exception, or recovery procedure;
-- an artifact template with repeated use.
+- a stable Govind-specific constraint;
+- a historical failure pattern with provenance and applicability;
+- an executable decision gate or workflow;
+- a reusable engineering artifact template;
+- validation that prevents structural or behavioral regression.
 
-Generic explanations reproducible from current authoritative documentation should be shortened, linked, or retired. Historical facts must include enough context to judge applicability and must not masquerade as current state.
+Generic explanations reproducible from project code or current authoritative documentation are removed. Historical facts never masquerade as current state.
 
 ## Lesson Schema
 
-Promoted lessons should record:
-
-- **Trigger:** when to retrieve the lesson;
-- **Context:** project, version, constraints, and date;
-- **Failure:** observed behavior or bad outcome;
-- **Cause:** verified reason;
-- **Rule:** concise required behavior;
-- **Evidence:** commands, links, review feedback, or runtime output;
-- **Applicability:** where the rule does and does not apply.
-
-One-off anecdotes stay in history. Repeated, durable lessons may become playbook rules after conflict and scope review.
+Record trigger, context, failure, cause, rule, evidence/provenance, and applicability. Re-verify stale commands, paths, versions, and statuses before use.
 
 ## Change Rules
 
-- One normative rule has one authoritative home. Other files link to it.
+- One normative rule has one authoritative home.
 - New active files require a unique trigger, owner class, token budget, and routing entry.
-- Archive before deleting when unique evidence or provenance may be lost.
-- For migrations, classify old material as retained, consolidated, reference, archived, or intentionally removed.
-- Run `scripts/validate-govind-os.ps1` and the scenarios in `tests/ROUTING_SCENARIOS.md` after structural changes.
+- Classify migrations in [FILE_DISPOSITION.md](FILE_DISPOSITION.md).
+- Run `scripts/validate-govind-os.ps1` and review [routing scenarios](../tests/ROUTING_SCENARIOS.md) after structural changes.
+
+The validator rejects retired directories, stale placeholders, broken links, excessive file budgets, and a corpus above 9,000 words.

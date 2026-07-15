@@ -1,94 +1,53 @@
-# Lessons Learned
+# Proven Lessons
 
-## Purpose
-A centralized repository of personal wisdom, rules of thumb, and principles distilled from software engineering, open-source work, and professional development.
+Load a lesson only when its trigger matches. These entries preserve historical provenance; re-check current code, versions, and repository rules before acting.
 
----
+## LESSON-001: Keep upstream changes focused
 
-## Lesson Template
-### LESSON-XXX
-- **Lesson:** 
-- **Source:** (Harbor / LFX / Book / Project / Internship / Interview / etc.)
-- **Confidence:** (Hypothesis / Likely True / Repeatedly Verified)
-- **Context:** 
-- **What Happened:** 
-- **What I Learned:** 
-- **Future Application:** 
+- **Trigger:** Planning an upstream pull request.
+- **Context:** Harbor CLI contribution history.
+- **Failure:** A multi-purpose change created extra review cycles.
+- **Cause:** Reviewers had to reason about unrelated behavior together.
+- **Rule:** Keep one user-visible purpose per pull request; split unrelated refactors.
+- **Evidence:** Migrated from the Harbor/LFX notes during the 2026-07-15 audit; original PR links were not retained.
+- **Applicability:** Default, unless an atomic change cannot safely be divided.
 
----
+## LESSON-002: Inspect existing SDK capability before adding wrappers
 
-## Engineering
-*[EMPTY — TO BE POPULATED] System design, debugging, testing, language patterns, performance.*
+- **Trigger:** A CLI or adapter appears to lack a feature exposed elsewhere.
+- **Context:** Harbor CLI garbage-collection discovery.
+- **Failure:** A custom design could duplicate an existing client package.
+- **Cause:** Command-layer parity lagged behind the SDK.
+- **Rule:** Inspect dependency versions, packages, models, and real APIs before designing a new wrapper.
+- **Evidence:** Prior notes record `go list` and `go doc` finding the Harbor `client/gc` package; re-run against the current dependency.
+- **Applicability:** SDK-backed tools; not proof that the existing API fits current requirements.
 
----
+## LESSON-003: Keep the agent kernel tool- and stack-neutral
 
-## Open Source
-*Upstream contributions, maintainer interaction, pull requests, repository navigation.*
+- **Trigger:** Adding global instructions for one language, framework, or agent.
+- **Context:** Govind OS restructuring.
+- **Failure:** Go/CNCF details polluted unrelated task context.
+- **Cause:** Domain guidance was placed in the mandatory layer.
+- **Rule:** Keep universal behavior in the kernel; obtain stack details from the target repository and current official sources.
+- **Evidence:** The 2026-07-15 corpus audit found the same rules repeated across tool and engineering handbooks.
+- **Applicability:** Global agent policy; project-local instructions still win.
 
-### LESSON-001: Small PRs Merge Faster
-- **Lesson:** Small PRs merge faster.
-  - **Source:** Harbor
-  - **Confidence:** Repeatedly Verified
-  - **Context:** Harbor CLI configuration contribution.
-  - **What Happened:** A large initial pull request with multiple refactors and additions required multiple review cycles and got delayed.
-  - **What I Learned:** Reviewability matters. Maintainers have limited time; smaller chunks reduce cognitive load and lead to rapid approvals.
-  - **Future Application:** Keep PRs highly focused, targeting one command or one fix at a time.
+## LESSON-004: Separate CLI declarations from execution logic
 
-### LESSON-003: Auditing SDK Capabilities for High-Signal Feature Parity
-- **Lesson:** Audit the underlying SDK capabilities against the CLI's feature checklist to find high-signal missing features.
-  - **Source:** Harbor CLI
-  - **Confidence:** Repeatedly Verified
-  - **Context:** Deciding which unimplemented WebUI feature to build in Harbor CLI.
-  - **What Happened:** Reviewing the `README.md` identified several unimplemented feature groups. Running Go tooling (like `go list` and `go doc`) on the `go-client` dependency revealed that the complete client package and API model for Garbage Collection (`client/gc`) was already built and ready.
-  - **What I Learned:** Sometimes, the client SDK layer is fully implemented, but the command layer has not caught up. Proposing/building these features has high acceptance probability because they are pre-validated by SDK inclusion and directly address project milestones.
-  - **Future Application:** Before designing/implementing custom wrappers, always inspect the SDK packages to see if the client endpoints are already stubbed out or fully defined.
+- **Trigger:** A CLI handler is difficult to test without the full command runtime.
+- **Context:** Harbor CLI Cobra command notes.
+- **Failure:** Rendering and business logic inside `RunE` required broad test setup.
+- **Cause:** Framework declaration and execution behavior were coupled.
+- **Rule:** Delegate to testable functions or services with explicit inputs and writers when consistent with project architecture.
+- **Evidence:** Migrated from `LFX_LESSONS_2026.md`; no source link was retained.
+- **Applicability:** Command frameworks with thin-handler conventions; do not refactor unrelated code solely for purity.
 
----
+## LESSON-005: Use platform path APIs
 
-## Career
-*[EMPTY — TO BE POPULATED] Job searching, networking, resumes, professional relationships.*
-
----
-
-## Learning
-*[EMPTY — TO BE POPULATED] Mental models, technical reading habits, learning new codebases.*
-
----
-
-## Communication
-*[EMPTY — TO BE POPULATED] Asynchronous team updates, PR documentation, conflict resolution, asking technical questions.*
-
----
-
-## Leadership
-*[EMPTY — TO BE POPULATED] Project management, mentoring, guiding community initiatives.*
-
----
-
-## Decision Making
-*[EMPTY — TO BE POPULATED] Tradeoffs, picking frameworks, resolving tech debt vs. features.*
-
----
-
-## Productivity
-*[EMPTY — TO BE POPULATED] Time management, focus blocks, automation, tooling.*
-
----
-
-## Mentorship
-*[EMPTY — TO BE POPULATED] How to be mentored effectively, seeking guidance, reporting progress.*
-
----
-
-## Systems Thinking
-*Feedback loops, architectural trade-offs, systemic bottlenecks in code and workflows.*
-
-### LESSON-002: Dynamic Context Bootstrapping vs. Hardcoded Stack Conventions
-- **Lesson:** Keep global AI agent instructions abstract and load domain/stack conventions dynamically via bootstrapping.
-  - **Source:** Govind-OS refactoring session
-  - **Confidence:** Repeatedly Verified
-  - **Context:** Deciding where Go and CNCF conventions belong when structuring configuration files for agents handling career, open source, learning, and projects.
-  - **What Happened:** Including Go/CNCF-specific engineering standards in the base AI operating manual (`AGENTS.md`) polluted the guide for non-engineering tasks (e.g. drafting cold emails or writing career proposals).
-  - **What I Learned:** AI instructions require a clean separation of concerns. Base layers should define behavior/meta-protocols, while a bootstrap loop dynamically injects specific domain context (like `core/CODING_STANDARDS.md`).
-  - **Future Application:** Protect the generic boundary of the base protocol. Resolve language/tool details via dynamic layer lookup rather than hardcoding them in global files.
-
+- **Trigger:** Code creates temporary, cache, or configuration paths.
+- **Context:** Cross-platform CLI work.
+- **Failure:** A hard-coded Unix temporary path failed portability.
+- **Cause:** Environment-specific filesystem assumptions.
+- **Rule:** Use language/platform path APIs and test supported operating systems.
+- **Evidence:** Migrated from the LFX notes; confirm the target project's supported platforms.
+- **Applicability:** Cross-platform software, with project-specific overrides where required.

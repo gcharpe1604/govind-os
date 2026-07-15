@@ -18,6 +18,12 @@ The user asked to research a technical question, orient to an unfamiliar reposit
 - Stop adding sources when new evidence no longer changes the conclusion.
 - For opportunity discovery, require a reproducible problem, affected users or maintainers, scope, and a plausible acceptance path.
 
+When ranking candidate work, compare evidence rather than intuition:
+
+`priority = impact × acceptance probability × scope fit × evidence confidence`
+
+Use relative scores only. Reject candidates with no reproducible problem, owner demand, or feasible verification path regardless of total score.
+
 ## Act
 
 Research and report only unless the user requested implementation or external action. Do not create a framework when a concise conclusion or existing project process is enough.
